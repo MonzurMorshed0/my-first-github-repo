@@ -20,28 +20,45 @@
 }
 div{
     border: 0px solid;
-    margin: 20px 350px 20px;
+    margin: 5% 0 5%;
     background-color: rgba(127, 255, 212, 0.425);
     border-radius: 5px;
+    box-shadow: 1px 1px 10px;
 }
-p{
+li{
     display: block;
     font-size: small;
-    padding-left: 30px;
-    padding-top: 10px;  
+    margin: 10px 0px 10px;  
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 h3{
     text-align: center;
-}
-.div1{
-    position: relative;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 5px;
 }
 .order{
-    margin-left: 60px;
-    background-color:rgb(4, 177, 177);
+    margin-left: 25%;
+    background-image: linear-gradient(to right, #33A2FF, #3BD5FA);
+    height: 30px;
+    width: 120px;
     border-radius: 5px;
     color: white;
     border: 0;
     margin-bottom: 10px;
+}
+.div1{
+    margin-left: 5%;
+    float: left;
+    width: 25%;
+}
+.div2{
+    float: left;
+    margin-left: 7.5%;
+    width: 25%;
+}
+.div3{
+    float: right;
+    width: 25%;
+    margin-right: 5%;
 }
